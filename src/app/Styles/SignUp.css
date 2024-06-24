@@ -1,0 +1,79 @@
+.input {
+  padding-left: 13px;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 10px;
+}
+.other-btn-cont {
+  width: 100px;
+  background-color: white;
+  color: black;
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+  position: relative;
+  border: 1px solid #8064a2;
+  border-radius: 10px;
+}
+.other-btn-cont img {
+  position: absolute;
+  left: 23px;
+  top: 15px;
+}
+.other-btn-cont:hover {
+  background-color: #8064a2;
+  color: white;
+}
+.other-btn-cont {
+  margin: 20px auto;
+}
+.btn {
+  width: 100px;
+  background-color: white;
+  /* color: white; */
+  width: 100%;
+  font-size: 20px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #9a999c;
+}
+.btn-cont {
+  margin: 20px auto;
+}
+.or div {
+  width: 48%;
+  height: 3px;
+  background-color: gainsboro;
+}
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.forget-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.forget span{
+  margin-right: 5px;
+}
+.forget {
+  display: flex;
+  align-items: center;
+}
+.remember-cont span {
+  margin-left: 5px;
+}
+.forget-cont {
+  margin-top: 20px;
+}
+.strength {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  opacity: 0.5;
+}

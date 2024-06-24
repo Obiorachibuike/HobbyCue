@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Poppins;
+}
+/* .header-right-content{
+  width: 500px;
+} */
+#intro{
+  background-color: #f7f5f9;
+}
+.feature{
+  width: 100%;
+  /* margin: 20px auto; */
+
+}
+.add-new-content{
+  width: 80%;
+  margin: auto;
+}
+.featuring-div{
+  width: 98%;
+  padding: 20px 40px;
+  border: 1px solid #8064a2;
+  border-radius: 7px;
+  background-color: white;
+}
+.add-new-cont{
+  background-color: #f7fdff;
+  padding: 60px 0px;
+}

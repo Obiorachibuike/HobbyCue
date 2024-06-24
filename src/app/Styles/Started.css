@@ -1,0 +1,49 @@
+.started-head {
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.started-content {
+  width: 80%;
+  margin: auto;
+}
+.started-cont {
+  background-color: #f7fdff;
+  position: relative;
+  margin-top: 50px;
+  padding: 50px 0px;
+}
+.started-btn {
+  background-color: #8064a2;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+  font-size: 20px;
+}
+.go-home-cont div {
+  background-color: white;
+  color: #8064a2;
+  width: 200px;
+  text-align: center;
+}
+.go-home-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 3px;
+  top: 187px;
+}
+.started-image-cont{
+    margin-top: 150px;
+}

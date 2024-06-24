@@ -1,0 +1,136 @@
+.add-listing-heading {
+  align-items: center;
+  justify-content: space-between;
+  width: 284px;
+  /* margin: auto; */
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 35px;
+}
+.add-listing-heading-cont {
+  display: flex;
+  justify-content: center;
+}
+.add-new-content {
+  width: 80%;
+  margin: auto;
+  background: white;
+  padding: 40px 0px;
+}
+.add-new-cont {
+  background-color: #f7fdff;
+  padding: 60px 0px;
+}
+.company-name{
+  display: none;
+}
+.header-left-cont {
+  width: 290px;
+}
+.header-right-cont {
+  width: 440px;
+}
+.header-icon-cont {
+  width: 125px;
+}
+
+.search-profile{
+  display: block;
+}
+.sign-in-cont{
+  display: none;
+}
+.new_purple {
+  border: 2px solid #8064a2;
+  padding: 20px 40px;
+  width: 96%;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+.new_purple:hover .purple {
+  color: white;
+}
+.new_purple:hover {
+  background-color: #8064a2;
+  color: white;
+  cursor: default;
+}
+.new_green {
+  border: 2px solid #77933c;
+  margin-top: 20px;
+  padding: 20px 40px;
+  width: 96%;
+  border-radius: 7px;
+}
+.new_green:hover .green {
+  color: white;
+}
+.new_green:hover {
+  background-color: #77933c;
+  color: white;
+  cursor: default;
+}
+.new_red {
+  border: 2px solid #c0504d;
+  margin-top: 20px;
+  padding: 6px 40px;
+  width: 96%;
+  border-radius: 7px;
+}
+.new_red:hover .red {
+  color: white;
+}
+.new_red:hover {
+  background-color: #c0504d;
+  color: white;
+  cursor: default;
+}
+.new_blue {
+  border: 2px solid #0096c8;
+  margin-top: 20px;
+  padding: 20px 40px;
+  width: 96%;
+  border-radius: 7px;
+}
+
+.new_blue:hover .blue {
+  color: white;
+}
+.new_blue:hover {
+  background-color: #0096c8;
+  color: white;
+  cursor: default;
+}
+.profile-cont{
+  display: flex;
+}
+.search-profile{
+  display: none;
+}
+/* .feature {
+  width: 87%;
+  margin: 20px auto;
+  margin: auto;
+} */
+
+@media (max-width: 1130px) {
+  .profile-cont{
+    display: none;
+  }
+  .search-profile{
+    display: flex;
+  }
+  .hide{
+    display: none;
+  }
+  .more-cont{
+    display: none;
+  }
+  .header-right-cont{
+    justify-content: end;
+  display: flex;
+  }
+  .search-cont{
+    display: none;
+  }
+}
